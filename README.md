@@ -106,6 +106,25 @@ CEPTA network design: <br/>
 <img src="https://github.com/user-attachments/assets/eccc6a00-743c-4dee-8b16-c9c6702f76df" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <br />
 
-
+<h2>Testing: </h2>
    
+After implementing the design and running it, we could successful results ensuring good connectivity and configuration. 
+<p align="center">
+First testing results of the network: <br/>
+<img src="https://github.com/user-attachments/assets/f337b909-6b38-4f9f-885f-c249af7d28ef" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<br />
+  
+Testing the designed network:
+The test has been conducted by sending a packet from source computer (department X) to destination computer (department Y). X and Y can be sales, marketing, head office, packing, lab 01 or lab 02. 
+The packet can be in this form where you drag and drop it in the computer of the department source and drop again in the computer of the department destination. 
+
+
+The testing can be also done through using the command line ping the destination IP address. 
+<p align="center">
+Sending packets to 192.168.1.5: <br/>
+<img src="https://github.com/user-attachments/assets/1eb53510-a324-483c-a8f6-0a04fe572c21" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<br />
+
+We have conducted the test in real time, but simulation mode can also be used. 
+We first tested the routers then the connection between the different departments the following table present the results we have got. 
 
