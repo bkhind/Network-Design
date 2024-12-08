@@ -25,10 +25,65 @@ Based on the topology analysis and the network requirements, a tree topology is 
 While there, are advantages to using the tree topology it's important to consider drawbacks. However, in instances the advantages of scalability, dependability and ease of upkeep render the tree topology an appealing option, for designing and managing networks.
 
 Even though the installation is expensive, however, it is needed to bring to the company more competitive advantages. And as we have two IT labs building good network infrastructure is needed. 
-
-
-
+<p align="center">
+Tree Topology: <br/>
+<img src="https://github.com/user-attachments/assets/e3e24be8-74f0-41ca-a4d4-bab03d24ec21" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <br />
 
 
-<h2>Methodology:</h2>
+
+<h2>Network design:</h2>
+ 
+To design the network system, we have used the following:
+<h4>Software used: </h4>
+Cisco packet tracer. 
+<h4>Topology: </h4> 
+Tree topology. 
+<h4>Hardware: </h4>
+a. Host: <br/>
+-	Ground floor: <br/>
+3 printers are distributed in different places on the ground floor. <br/>
+Marketing: 6 computers <br/>
+Sales: 5 computers <br/>
+Head office: 10 computers <br/>
+Packing: 5 computers 
+-	First floor: 5 computers
+-	Second floor: 5 computers
+
+b. Networking devices: 4 switches, 2 routers distributed as follows: 
+-	Second floor: 1 switch 
+-	First floor: 1 switch, 1 router
+-	Ground floor: 2 switches, 1 router 
+
+c.	Servers: DHCP server. 
+
+Network scheme: 
+
+192.168.1.X: second floor LAB 02
+
+192.168.4.X: first floor LAB 01     
+
+192.168.3.X: Router to Router Network (Between Floors) 
+
+192.168.2.X:  Ground floor Marketing and sales 
+
+192.168.5.X: Ground floor Head office and paking 
+
+<h4>Configuration: </h4>
+
+-	We have made use of the DHCP server within the router to assign dynamic IP addresses to the hosts.
+  
+To do that we have used the CLI to type these commands and we enabled the device's DHCP function. 
+
+<p align="center">
+DHCP Configuration: <br/>
+<img src="https://github.com/user-attachments/assets/57e19f12-2959-40c7-a4da-afd126f69792" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<br />
+<p align="center">
+DHCP Configuration: <br/>
+<img src="https://github.com/user-attachments/assets/52310563-68a9-482c-a2a4-ba4f0c070a23" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<br />
+
+
+
+
