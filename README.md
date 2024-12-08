@@ -71,7 +71,7 @@ Network scheme:
 
 <h4>Configuration: </h4>
 
--	We have made use of the DHCP server within the router to assign dynamic IP addresses to the hosts.
+1. We have made use of the DHCP server within the router to assign dynamic IP addresses to the hosts.
   
 To do that we have used the CLI to type these commands and we enabled the device's DHCP function. 
 
@@ -80,10 +80,32 @@ DHCP Configuration: <br/>
 <img src="https://github.com/user-attachments/assets/57e19f12-2959-40c7-a4da-afd126f69792" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <br />
 <p align="center">
-DHCP Configuration: <br/>
 <img src="https://github.com/user-attachments/assets/52310563-68a9-482c-a2a4-ba4f0c070a23" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <br />
 
+2. To enable connection between the LANs we have configured the router GigabitEthernet ports.
+<p align="center">
+LANs connection configuration: <br/>
+<img src="https://github.com/user-attachments/assets/fd68f96f-d04b-41e8-94fd-9bfb514b1a9f" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<br />
+<p align="center">
+<img src="https://github.com/user-attachments/assets/ca01e210-e228-45ef-860d-3be984d385f3" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<br />
+<p align="center">
+<img src="https://github.com/user-attachments/assets/7455a27d-1c7f-4405-be18-7f3871d0d5fc" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<br />
+   
+3. To enable communication between different stages, the configuration was done using the RIP which a Routing information protocol:
+<p align="center">
+RIP configuration: <br/>
+<img src="https://github.com/user-attachments/assets/eccc6a00-743c-4dee-8b16-c9c6702f76df" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<br />
+
+<p align="center">
+CEPTA network design: <br/>
+<img src="https://github.com/user-attachments/assets/eccc6a00-743c-4dee-8b16-c9c6702f76df" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<br />
 
 
+   
 
