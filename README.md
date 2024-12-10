@@ -128,43 +128,42 @@ Sending packets to 192.168.1.5: <br/>
 We have conducted the test in real time, but simulation mode can also be used. 
 We first tested the routers then the connection between the different departments the following table present the results we have got. 
 
-| First Header  | 
-| ------------- |
-|Company: CETPA IT Solutions
-Project name: Network Infrastructure of CETPA Pharmaceutical Barwa Center.
-Responsible: Network Engineer 
-Date: 03/12/2023
-Purpose and scope of the project: Testing the designed network infrastructure of CETPA center.|
-|Test analysis: 
-Number of packets sent:
-Overall: 178 packets
-Router 1: 1 (Router 2), 1 (Marketing), 1 (Head Office), 1 (Sales), 1 (Packing), 1 (Lab 01), 1 (Lab 02)
-Router 2: 1 (Router 1), 1 (Marketing), 1 (Head Office), 1 (Sales), 1 (Packing), 1 (Lab 01), 1 (Lab 02)
-Marketing department: 7 (Head Office), 3 (Sales), 6 (Packing), 3 (Lab 01), 7 (Lab 02)
-Sales department: 5 (Marketing), 2 (Head Office), 8 (Packing), 6 (Lab 01), 7 (Lab 02)
-Head office department: 4 (Marketing), 7 (Sales), 4 (Packing), 7 (Lab 01), 5 (Lab 02)
-Packing department: 5 (Marketing), 4 (Head Office), 8 (Sales), 3 (Lab 01), 6 (Lab 02)
-Lab 01: 3 (Sales), 6 (Marketing), 2 (Head Office), 8 (Packing), 7 (Lab 02)
-Lob 02:  7 (Marketing), 2 (Head Office), 5 (Packing), 2 (Lab 01), 5 (Sales)
+Company: CETPA IT Solutions <br />
+Project name: Network Infrastructure of CETPA Pharmaceutical Barwa Center. <br />
+Responsible: Network Engineer <br />
+Date: 03/12/2023<br />
+Purpose and scope of the project: Testing the designed network infrastructure of CETPA center. <br />
+<br />
+Test analysis: <br />
+**Number of packets sent:** <br />
+Overall: 178 packets<br />
+Router 1: 1 (Router 2), 1 (Marketing), 1 (Head Office), 1 (Sales), 1 (Packing), 1 (Lab 01), 1 (Lab 02)<br />
+Router 2: 1 (Router 1), 1 (Marketing), 1 (Head Office), 1 (Sales), 1 (Packing), 1 (Lab 01), 1 (Lab 02)<br />
+Marketing department: 7 (Head Office), 3 (Sales), 6 (Packing), 3 (Lab 01), 7 (Lab 02)<br />
+Sales department: 5 (Marketing), 2 (Head Office), 8 (Packing), 6 (Lab 01), 7 (Lab 02)<br />
+Head office department: 4 (Marketing), 7 (Sales), 4 (Packing), 7 (Lab 01), 5 (Lab 02)<br />
+Packing department: 5 (Marketing), 4 (Head Office), 8 (Sales), 3 (Lab 01), 6 (Lab 02)<br />
+Lab 01: 3 (Sales), 6 (Marketing), 2 (Head Office), 8 (Packing), 7 (Lab 02)<br />
+Lob 02:  7 (Marketing), 2 (Head Office), 5 (Packing), 2 (Lab 01), 5 (Sales)<br />
 
-Number of received successful packets: 
-Overall: 131 packets
-Router 1: 1 (Router 2), 1 (Marketing), 1 (Head Office), 1 (Sales), 1 (Packing), 1 (Lab 01), 1 (Lab 02)
-Router 2: 1 (Router 1), 1 (Marketing), 1 (Head Office), 1 (Sales), 1 (Packing), 1 (Lab 01), 1 (Lab 02)
-Marketing department: 5 (Sales), 2 (Head Office), 3 (Packing), 5 (Lab 01), 7 (Lab 02)
-Sales department: 2 (Marketing), 4 (Head Office), 4 (Packing), 2 (Lab 01), 5 (Lab 02)
-Head office department: 6 (Marketing), 2 (Sales), 3 (Packing), 2 (Lab 01), 3 (Lab 02)
-Packing department: 4 (Sales), 5 (Marketing), 2 (Head Office), 6 (Lab 01), 3 (Lab 02)
-Lab 01: 3 (Marketing), 6 (Head Office), 3 (Packing), 6 (Sales), 2 (Lab 02)
-Lob 02: 4 (Marketing), 3 (Head Office), 6 (Packing), 6 (Sales), 3 (Lab 01)
+**Number of received successful packets:** <br />
+Overall: 131 packets <br />
+Router 1: 1 (Router 2), 1 (Marketing), 1 (Head Office), 1 (Sales), 1 (Packing), 1 (Lab 01), 1 (Lab 02)<br />
+Router 2: 1 (Router 1), 1 (Marketing), 1 (Head Office), 1 (Sales), 1 (Packing), 1 (Lab 01), 1 (Lab 02) <br />
+Marketing department: 5 (Sales), 2 (Head Office), 3 (Packing), 5 (Lab 01), 7 (Lab 02) <br />
+Sales department: 2 (Marketing), 4 (Head Office), 4 (Packing), 2 (Lab 01), 5 (Lab 02) <br />
+Head office department: 6 (Marketing), 2 (Sales), 3 (Packing), 2 (Lab 01), 3 (Lab 02)<br />
+Packing department: 4 (Sales), 5 (Marketing), 2 (Head Office), 6 (Lab 01), 3 (Lab 02)<br />
+Lab 01: 3 (Marketing), 6 (Head Office), 3 (Packing), 6 (Sales), 2 (Lab 02)<br />
+Lob 02: 4 (Marketing), 3 (Head Office), 6 (Packing), 6 (Sales), 3 (Lab 01)<br />
 
-Number of failed packets: 
-Overall: 47
-Router 1: 0 (Router 2), 0 (Marketing), 0 (Head Office), 0 (Sales), 0 (Packing), 0 (Lab 01), 0 (Lab 02)
-Router 2: 0 (Router 1), 0 (Marketing), 0 (Head Office), 0 (Sales), 0 (Packing), 0 (Lab 01), 0 (Lab 02)
-Marketing department: 0 (Sales), 2 (Head Office), 2 (Packing), 1 (Lab 01), 0 (Lab 02)
-Sales department: 1 (Marketing), 3 (Head Office), 4 (Packing), 1 (Lab 01), 0 (Lab 02)
-Head office department: 1 (Marketing), 0 (Sales), 5 (Packing), 1 (Lab 01), 2 (Lab 02)
-Packing department: 4 (Sales), 1 (Marketing), 2 (Head Office), 2 (Lab 01), 2 (Lab 02)
-Lab 01: 0 (Sales), 0 (Marketing), 1 (Head Office), 0 (Packing), 0 (Lab 02)
-Lob 02: 3 (Marketing), 1(Sales), 2 (Head Office), 2 (Packing), 4 (Lab 01) |
+**Number of failed packets:** <br />
+Overall: 47 <br />
+Router 1: 0 (Router 2), 0 (Marketing), 0 (Head Office), 0 (Sales), 0 (Packing), 0 (Lab 01), 0 (Lab 02)<br />
+Router 2: 0 (Router 1), 0 (Marketing), 0 (Head Office), 0 (Sales), 0 (Packing), 0 (Lab 01), 0 (Lab 02) <br />
+Marketing department: 0 (Sales), 2 (Head Office), 2 (Packing), 1 (Lab 01), 0 (Lab 02) <br />
+Sales department: 1 (Marketing), 3 (Head Office), 4 (Packing), 1 (Lab 01), 0 (Lab 02) <br />
+Head office department: 1 (Marketing), 0 (Sales), 5 (Packing), 1 (Lab 01), 2 (Lab 02) <br />
+Packing department: 4 (Sales), 1 (Marketing), 2 (Head Office), 2 (Lab 01), 2 (Lab 02) <br />
+Lab 01: 0 (Sales), 0 (Marketing), 1 (Head Office), 0 (Packing), 0 (Lab 02) <br />
+Lob 02: 3 (Marketing), 1(Sales), 2 (Head Office), 2 (Packing), 4 (Lab 01)<br />
